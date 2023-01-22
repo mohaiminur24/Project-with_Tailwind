@@ -134,7 +134,7 @@
     <h1 class="text-4xl font-bold text-center my-4">News & Event</h1>
     <p class="text-gray-400 w-4/6 text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minima culpa at quis, aperiam iste. Placeat tempore hic obcaecati aspernatur dignissimos sit perspiciatis quasi, ipsa dolorum alias necessitatibus voluptatem mollitia.</p>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 justify-center my-20">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 justify-around my-20">
 
         <div class="border-2 rounded-lg p-5">
             <img class="w-full mb-5" src="images/news-1.png" alt="">
@@ -174,9 +174,9 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-4 gap-4 mt-10">
+        <div class="grid grid-cols-1 gap-4 lg:grid-cols-4 mt-10 justify-center items-center">
             <div>
-                <ul>
+                <ul class="text-center lg:text-start">
                     <li class="font-bold">Quick Link</li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About us</a></li>
@@ -186,7 +186,7 @@
             </div>
 
             <div>
-                <ul>
+                <ul class="text-center">
                     <li class="font-bold">Our service</li>
                     <li><a href="#">Life Insurance</a></li>
                     <li><a href="#">Car Insurance</a></li>
@@ -195,13 +195,13 @@
                 </ul>
             </div>
             <div>
-                <ul>
+                <ul class="text-center">
                     <li class="font-bold">Help</li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="text-center">
                 <h1 class="font-semibold mb-5 text-2xl">Suscribe to our <br> newsletter</h1>
                 <input class="bg-transparent border-b-2 border-gray-900 pb-5 w-4/6" type="email" placeholder="Email Address">
                 <button class="p-2 px-4 h-auto bg-gradient-to-r from-red-400 to-red-500 rounded-full text-white"><i class="fa-solid fa-chevron-right"></i></button>
