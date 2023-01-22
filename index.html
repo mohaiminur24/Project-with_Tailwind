@@ -3,11 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fontawsome file here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Tailwind css framework -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- External css file here -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Tea house with Tailwind</title>
 </head>
 <body>
+
+    <!-- Banner section start -->
+
+    <div class="container mx-auto h-screen grid items-center justify-center md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 ">
+        <div class="text-center p-10">    
+                <h1 class="text-3xl font-bold md:text-6xl">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="text-sm my-5 text-neutral-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos atque dolorem sequi ipsa, numquam beatae quo? Sunt praesentium mollitia consectetur.</p>
+                <button class="py-2 px-4 bg-gradient-to-r from-red-400 to-red-500 rounded-md text-white">Explore more <i class="fa-solid fa-location-arrow"></i></button>
+        </div>
+        <div class="relative">
+            <img class="mx-auto w-1/2" src="images/banner.png" alt="">
+
+            <div class="flex items-center w-max px-4 py-3 drop-shadow-lg bg-white rounded-md absolute bottom-0 left-20">
+                <i class="fa-solid fa-star text-yellow-400 fa-2x items-center mr-2"></i>
+                <div>
+                    <h2 class="text-3xl font-bold">5.00</h2>
+                    <h6>Trust Pilot Rating</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Featured product section start -->
+
+    <div class="container mx-auto my-10">
+        <h1 class="text-4xl font-bold text-center my-2">Our Featured Product</h1>
+        <p class="text-gray-500 w-1/2 mx-auto text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex, at veniam incidunt iure eius! Culpa sunt incidunt molestiae necessitatibus?</p>
+
+        <div class="flex gap-2 justify-around items-center my-10 flex-col md:flex-row">
+            <div class="bg-gray-100 text-center p-10 rounded-sm">
+                <img class="mx-auto" src="images/tea-1.png" alt="">
+                <h2 class="text-2xl font-bold my-5">Milk Tea</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, nulla!</p>
+            </div>
+
+            <div class="bg-gray-100 text-center p-10 rounded-sm">
+                <img class="mx-auto" src="images/tea-2.png" alt="">
+                <h2 class="text-2xl font-bold my-5">Black Tea</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, nulla!</p>
+            </div>
+
+            <div class="bg-gray-100 text-center p-10 rounded-sm">
+                <img class="mx-auto" src="images/tea-3.png" alt="">
+                <h2 class="text-2xl font-bold my-5">Leamon Tea</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, nulla!</p>
+            </div>
+
+            <div class="bg-gray-100 text-center p-10 rounded-sm">
+                <img class="mx-auto" src="images/tea-4.png" alt="">
+                <h2 class="text-2xl font-bold my-5">Green Tea</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, nulla!</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    
   
+
+
+
+
+
+
+
+
+
+
 
 
 
